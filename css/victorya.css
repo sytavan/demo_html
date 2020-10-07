@@ -1,0 +1,88 @@
+
+body {
+  box-sizing: border-box; 
+  font-size: 16px;
+}
+  .container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto; }
+    @media (min-width: 576px) {
+      .container {
+        max-width: 540px; } }
+    @media (min-width: 768px) {
+      .container {
+        max-width: 720px; } }
+    @media (min-width: 992px) {
+      .container {
+        max-width: 960px; } }
+    @media (min-width: 1200px) {
+      .container {
+        max-width: 1140px; } }
+.navbar-brand {
+  font-size: 2.25rem !important;
+  color:#452268 !important; }
+
+header {
+  background-image: url("../image/banner.png"); 
+  padding-top: 50px;
+  min-height: 800px;
+  background-position: center;
+  background-size: cover;}
+  @media screen and (min-width: 576px) {
+    .navbar-nav{
+      margin-left: 0px;
+    }
+  }
+  .navbar-nav {
+    margin-top: 5px;
+    margin-left: 102px; }
+  .navbar-nav .nav-item .nav-link {
+    color: #ABADAE; }
+  .navbar-nav .nav-item .active-link {
+    color: #0A4065 }
+  .title-header {
+    font-size: 3.56rem;
+    color: #255A7E;
+    margin-top: 160px; }
+  .header-description {
+    color: #506D82; }
+  .btn-header {
+    align-items: baseline;
+    display: flex; }
+  header .btn-order {
+   background-color: #F98169;
+    border: none;
+    border-radius: 0;
+    padding: 15px 50px;
+    font-size: 1.13rem; 
+  box-shadow: 0 8px 16px 0 #f7b9a9, 0 6px 20px 0 #f6d3c6;}
+  header .btn-order:hover {
+    background-color: #f5a899; }
+  .btn-header .text-watch {
+    font-size: 1.13rem;
+    color: #7E9099 !important;
+    cursor: pointer; }
+  header .text-watch:hover{
+    color:  #7E9099;
+  }
+  header .btn-play {
+    font-size: 1.13rem;
+    background-color: #F98169;
+    box-shadow: 0 8px 16px 0 #f7b9a9, 0 6px 20px #f6d3c6;
+    border: none;
+    border-radius: 100%;
+    color: #FFF0ED;
+    padding: 18px 7px 15px 18px;
+    outline: none !important; }
+  header .btn-play:hover {
+    color: #FFF0ED;
+    background-color: #f5a899; }
+  .footer-top{
+    background-image: url("../image/footer-banner1.png");
+    background-size: contain;
+    background-position: bottom;
+    min-height: 640px;
+  }
