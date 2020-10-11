@@ -84,6 +84,12 @@ header {
   header .btn-play:hover {
     color: #FFF0ED;
     background-color: #f5a899; }
+  footer{
+    background-image:url('../image/banner-footer2.png');
+    background-repeat:no-repeat;
+    background-size: contain;
+    background-position:780px 380px;
+  }
   .footer-top{
     background: url("../image/footer-banner1.png") no-repeat center center;
     background-size: cover;
