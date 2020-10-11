@@ -36,9 +36,12 @@ header {
       margin-left: 0px;
     }
   }
-  .navbar-nav {
-    margin-top: 5px;
-    margin-left: 102px; }
+  @media (min-width : 1200px){
+    .navbar-nav {
+      margin-top: 5px;
+      margin-left: 102px; }
+  }
+  
   .navbar-nav .nav-item .nav-link {
     color: #ABADAE; }
   .navbar-nav .nav-item .active-link {
@@ -46,6 +49,7 @@ header {
   .title-header {
     font-size: 3.56rem;
     color: #255A7E;
+    line-height: 4.2rem;
     margin-top: 160px; }
   .header-description {
     color: #506D82; }
@@ -81,8 +85,59 @@ header {
     color: #FFF0ED;
     background-color: #f5a899; }
   .footer-top{
-    background-image: url("../image/footer-banner1.png");
-    background-size: contain;
+    background: url("../image/footer-banner1.png") no-repeat center center;
+    background-size: cover;
     background-position: bottom;
-    min-height: 640px;
+    height: 600px;
   }
+  @media (min-width : 1200px){
+    .footer-top {
+      padding-top: 180px;
+     }
+  } 
+  .contact-box {
+    height: 338px;
+    padding: 50px 160px 50px 160px;
+    margin: auto;
+    background-color: #FFFFFF;
+    box-shadow: 0 8px 16px 0 #F4F7FA, 0 6px 20px #FFFFFF;
+  }
+  .mail-box {
+    text-align: center;
+    margin: auto;
+  }
+  .mail-box-des{
+    font-size: 2.25rem;
+    font-family: Georgia;
+    margin-bottom: 50px;
+  }
+  .input-group-lg > .form-control{
+    padding: 0.5rem 1rem;
+    font-size: 1.25rem;
+    background-color: #F9FBFB;
+    border-radius: 1rem;
+    height: 4.25rem !important;
+  }
+  .input-group-text{
+    width: 250px;
+    background-color: #F98169;
+    border-radius: 0rem 1rem 1rem 0rem !important;
+    text-align: center;
+    padding-left: 100px;
+  }
+  .footer-bot{
+    height: 330px;
+    padding-top: 50px;
+  }
+  #footer-text{
+    padding-top: 10px;
+    font-size: 1.25rem;
+    letter-spacing: 1rem;
+  }
+  #footer-cap{
+    margin-top: 100px;
+    font-family: Regular;
+    color: #ABADAE;
+  }
+ 
+  
