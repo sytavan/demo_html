@@ -101,9 +101,19 @@ header {
       padding-top: 180px;
      }
   } 
-  .contact-box {
+  @media (min-width : 576px){
+    .contact-box{
+      height: 338px;
+    }
+  }
+  @media (min-width : 1200px){
+    .contact-box{
     height: 338px;
     padding: 50px 160px 50px 160px;
+    }
+  }
+    
+  .contact-box {
     margin: auto;
     background-color: #FFFFFF;
     box-shadow: 0 8px 16px 0 #F4F7FA, 0 6px 20px #FFFFFF;
@@ -117,6 +127,11 @@ header {
     font-family: Georgia;
     margin-bottom: 50px;
   }
+  @media (min-width : 576px){
+    .mail-box-des{
+      margin-bottom: 10px;
+    }
+  }
   .input-group-lg > .form-control{
     padding: 0.5rem 1rem;
     font-size: 1.25rem;
@@ -125,7 +140,6 @@ header {
     height: 4.25rem !important;
   }
   .input-group-text{
-    width: 250px;
     background-color: #F98169;
     border-radius: 0rem 1rem 1rem 0rem !important;
     text-align: center;
@@ -133,7 +147,6 @@ header {
   }
   .footer-bot{
     height: 330px;
-    padding-top: 50px;
   }
   #footer-text{
     padding-top: 10px;
