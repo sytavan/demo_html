@@ -96,14 +96,22 @@ header {
     background-position: bottom;
     height: 600px;
   }
+  @media (min-width : 576px){
+    .footer-top {
+      padding-top: 100px;
+     }
+  } 
   @media (min-width : 1200px){
     .footer-top {
       padding-top: 180px;
+      padding-left: 130px;
+      padding-right: 130px;
      }
   } 
+  
   @media (min-width : 576px){
     .contact-box{
-      height: 338px;
+      height: 300px;
     }
   }
   @media (min-width : 1200px){
@@ -158,7 +166,7 @@ header {
     text-align: center;
   }
   .footer-bot{
-    height: 330px;
+    height: 300px;
   }
   #footer-text{
     padding-top: 10px;
