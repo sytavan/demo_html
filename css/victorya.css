@@ -88,27 +88,34 @@ header {
     background-image:url('../image/banner-footer2.png');
     background-repeat:no-repeat;
     background-size: contain;
-    background-position:780px 380px;
+
   }
-  .footer-top{
-    background: url("../image/footer-banner1.png") no-repeat center center;
-    background-size: cover;
-    background-position: bottom;
-    height: 600px;
-  }
+  
   @media (min-width : 576px){
+    footer{
+      background-position:300px 150px;
+    }
     .footer-top {
       padding-top: 100px;
+      height: 300px;
      }
   } 
   @media (min-width : 1200px){
+    footer{
+      background-position:780px 380px;
+    }
     .footer-top {
+      height: 600px;
       padding-top: 180px;
       padding-left: 130px;
       padding-right: 130px;
      }
   } 
-  
+  .footer-top{
+    background: url("../image/footer-banner1.png") no-repeat center center;
+    background-size: cover;
+    background-position: bottom;
+  }
   @media (min-width : 576px){
     .contact-box{
       height: 300px;
