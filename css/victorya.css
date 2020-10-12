@@ -93,10 +93,10 @@ header {
   
   @media (min-width : 576px){
     footer{
-      background-position:300px 150px;
+      background-position:600px 300px;
     }
     .footer-top {
-      height: 300px;
+      height: 600px;
       padding-top: 100px;
      }
   } 
@@ -173,6 +173,7 @@ header {
     }
   }
   .input-group-text{
+    color: #FFFFFF;
     background-color: #F98169;
     border-radius: 0rem 1rem 1rem 0rem !important;
     text-align: center;
