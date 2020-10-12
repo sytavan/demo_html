@@ -96,8 +96,8 @@ header {
       background-position:300px 150px;
     }
     .footer-top {
-      padding-top: 100px;
       height: 300px;
+      padding-top: 100px;
      }
   } 
   @media (min-width : 1200px){
@@ -119,6 +119,7 @@ header {
   @media (min-width : 576px){
     .contact-box{
       height: 300px;
+      padding: 50px 160px 50px 160px;
     }
   }
   @media (min-width : 1200px){
@@ -142,7 +143,7 @@ header {
   }
   @media (min-width : 576px){
     .mail-box-des{
-      margin-bottom: 10px;
+      margin-bottom: 50px;
       font-size: 1.25rem;
     }
   }
@@ -160,6 +161,10 @@ header {
     height: 4.25rem !important;
   }
   @media (min-width : 576px){
+    .input-group-text{
+      width: 150px;
+      padding-left: 100px;
+    }
   }
   @media (min-width : 1200px){
     .input-group-text{
