@@ -200,6 +200,12 @@ header {
     font-family: Regular;
     color: #ABADAE;
   }
+  .line-hr{
+    width:50%;
+    text-align:left;
+    margin-left:0
+    
+  }
   
   @media (min-width : 576px){
     #section1{
@@ -446,9 +452,11 @@ header {
 #section4{
   text-align: center;
 }
-#section4 .item img{
-  width: 100%;
+#owl-demo .item{
+  margin: 3px;
 }
-#section4 .item{
-  width: 30%;
+#owl-demo .item img{
+  display: block;
+  width: 100%;
+  height: auto;
 }
