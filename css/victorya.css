@@ -28,18 +28,24 @@ body {
 header {
   background-image: url("../image/banner.png"); 
   padding-top: 50px;
-  min-height: 800px;
   background-position: center;
   background-size: cover;}
   @media screen and (min-width: 576px) {
+    header {
+      min-height: 900px;
+    }
     .navbar-nav{
       margin-left: 0px;
     }
   }
   @media (min-width : 1200px){
+    header {
+      min-height: 800px;
+    }
     .navbar-nav {
       margin-top: 5px;
       margin-left: 102px; }
+    
   }
   
   .navbar-nav .nav-item .nav-link {
@@ -47,11 +53,15 @@ header {
   .navbar-nav .nav-item .active-link {
     color: #0A4065 }
   .title-header {
+    font-family: 'Muli';
+    font-weight: 300;
     font-size: 3.56rem;
     color: #255A7E;
     line-height: 4.2rem;
     margin-top: 160px; }
   .header-description {
+    font-family: 'Muli';
+    font-weight: 600;
     color: #506D82; }
   .btn-header {
     align-items: baseline;
@@ -61,6 +71,8 @@ header {
     border: none;
     border-radius: 0;
     padding: 15px 50px;
+    font-family: 'Muli';
+    font-weight: bold;
     font-size: 1.13rem; 
   box-shadow: 0 8px 16px 0 #f7b9a9, 0 6px 20px 0 #f6d3c6;}
   header .btn-order:hover {
@@ -253,7 +265,7 @@ header {
   }
   .card-text{
     font-family: 'Muli';
-    font-weight: 300;
+    font-weight: 600;
     color: #AEB2B4;
     line-height: 1.625rem;
     margin-bottom: 30px;
@@ -330,7 +342,7 @@ header {
   }
   .section2-des{
     font-family: 'Muli';
-    font-weight: 400;
+    font-weight: 600;
   }
   @media (min-width : 576px){
     .section2-header{
@@ -348,7 +360,8 @@ header {
       line-height: 2.875rem;
     }
 	.section2-des{
-	 line-height: 1.625rem;
+    font-size: 1rem;
+	  line-height: 1.625rem;
     }
 	
   }
@@ -424,7 +437,7 @@ header {
 .s3-card-text{
   font-family: 'Muli';
   font-size: 0.875rem;
-  font-weight: 400;
+  font-weight: 600;
   color: #AEB2B4;
   line-height: 1.625rem;
 }
@@ -451,6 +464,7 @@ header {
  
 #section4{
   text-align: center;
+  margin-bottom: 30px;
 }
 #owl-demo .item{
   margin: 3px;
