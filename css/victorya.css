@@ -106,16 +106,16 @@ header {
 
   }
   
-  @media (min-width : 576px){
+  @media only screen and (min-width: 375px) {
     footer{
-      background-position:600px 300px;
+      background-position:120px 350px;
     }
     .footer-top {
-      height: 600px;
-      padding-top: 180px;
+      height: 300px;
+      padding-top: 90px;
      }
   } 
-  @media (min-width : 1200px){
+  @media only screen and (min-width: 1200px) {
     footer{
       background-position:780px 380px;
     }
@@ -486,11 +486,19 @@ header {
   height: 150px;
   text-align: center;
 }
+@media only screen and (min-width: 375px) {
+  
+}
 /* section 4*/
  
 #section4{
   text-align: center;
   margin-bottom: 30px;
+}
+@media only screen and (min-width: 375px) {
+  #section4{
+    margin-top: 100px;
+  }
 }
 #owl-demo .item{
   margin: 3px;
