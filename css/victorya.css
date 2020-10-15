@@ -41,6 +41,11 @@ header {
       
     }
   }
+  @media (min-width: 768px) {
+    header {
+      padding-bottom: 100px;
+    }
+  }
   @media (min-width : 1200px){
     header {
       min-height: 800px;
@@ -109,6 +114,15 @@ header {
   @media only screen and (min-width: 375px) {
     footer{
       background-position:120px 350px;
+    }
+    .footer-top {
+      height: 300px;
+      padding-top: 90px;
+     }
+  } 
+  @media only screen and (min-width: 768px) {
+    footer{
+      background-position:370px 250px;
     }
     .footer-top {
       height: 300px;
@@ -224,7 +238,12 @@ header {
   
   @media (min-width : 576px){
     #section1{
-      height: 2800px;
+      height: 2000px;
+    }
+  }
+  @media (min-width : 768px){
+    #section1{
+      height: 1150px;
     }
   }
   @media (min-width : 1200px){
@@ -347,6 +366,12 @@ header {
       background-size: cover;
     }
   }
+  @media only screen and (min-width: 768px) {
+    #section2-banner{
+      height: 350px;
+      background-size: cover;
+    }
+  }
   @media only screen and (min-width: 1200px) {
     #section2-banner{
       height: 450px;
@@ -413,7 +438,7 @@ header {
 
  #section3-top{
    padding-top: 20px;
-   margin-bottom: 30px;
+   margin-bottom: 0px;
    text-align: center;
 
  }
@@ -431,6 +456,12 @@ header {
  
   }
 }
+@media (min-width : 768px){
+  #section3-body{
+    height: 1200px;
+ 
+  }
+}
 @media (min-width : 1200px){
   #section3-body{
     height: 810px;
@@ -445,6 +476,21 @@ header {
    border: none;
    box-shadow: 2px 2px 6px 0px #D1D3D5, 0 6px 20px #FFFFFF;
    float: left;
+ }
+ @media only screen and (min-width: 375px) {
+  .section3-card{
+    float: none;
+  }
+ }
+ @media only screen and (min-width: 768px) {
+  .section3-card{
+    float: left;
+  }
+ }
+ @media only screen and (min-width: 1200px) {
+  .section3-card{
+    float: left;
+  }
  }
  .section3-card:hover{
   box-shadow: 4px 4px 6px 0px #D1D3D5, 0 6px 6px #FFFFFF;
@@ -485,6 +531,7 @@ header {
 #section3-bot{
   height: 150px;
   text-align: center;
+  margin-top: 20px;
 }
 @media only screen and (min-width: 375px) {
   
@@ -494,11 +541,6 @@ header {
 #section4{
   text-align: center;
   margin-bottom: 30px;
-}
-@media only screen and (min-width: 375px) {
-  #section4{
-    margin-top: 100px;
-  }
 }
 #owl-demo .item{
   margin: 3px;
